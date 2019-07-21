@@ -1,10 +1,11 @@
 import React from 'react';
 import SongList from './SongList';
 import SongDetail from './SongDetail';
+import './App.css';
 
 const App = () => {
   return (
-    <div className="ui container grid">
+    <div className="ui container grid bordered">
       <div className="ui row">
         <div className="column eight wide">
           <SongList />
